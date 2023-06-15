@@ -1,0 +1,54 @@
+body {
+  counter-reset: section figure;
+	}
+
+.figcaption:before{
+	counter-increment: figure;
+	font-weight: 600;
+	content: "[Fig. " counter(figure) "] " ;
+	margin: 0 6px 0 0;
+	}
+
+.figcaption:before{
+	counter-increment: figure;
+	font-weight: 600;
+	content: "Fig." counter(figure);
+	margin: 0 6px 0 0;
+	}
+
+.chapter{
+	display: block;
+	text-align: center;
+	}
+
+.chapter.hr{
+	overflow: visible;
+	background: url("hr.svg") repeat-x center center transparent;	
+}
+
+.chapter label{
+	background: #f2f2f2;
+	border-radius: 50%;
+	padding: 10px 8px;
+}
+
+.chapter label.stamp{
+	border-radius: 50%;
+	padding: 2px 3px 1px 3px;
+}
+
+.chapter label.numbered:before{
+	counter-increment: section;
+	content: counter(section);
+	padding: 10px 8px;
+	border-radius: 50%;
+}
+
+
+
+.ref{
+	color: red;
+	font-size: 12px;
+	padding: 0 0 8px 0;
+	margin-top: -10px;
+}

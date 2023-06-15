@@ -1,0 +1,133 @@
+body, h1, h2, h3, h4, h5,
+p, small,
+dl, dt, dd,
+figure, figcaption,
+blockquote, cite,
+ul, ol, li{
+	margin: 0;
+	padding: 0; 
+	}
+
+body{
+	padding: 0 10px;
+	background: #f2f2f2;
+}
+
+hr{
+	background-color: #ccc;
+	border:none;
+	height: 1px;
+	margin: 10px 0 8px 0; 
+}
+
+.wrap{
+	max-width: 700px;
+	margin: auto;
+	padding: 0;
+	}
+
+@media screen and (max-width: 700px){
+	.wrap{
+		margin: auto;
+		padding: 0 15px 30px 15px;
+		}
+}
+
+
+.citation{
+	display: block;
+}
+
+.footer{
+	background: #eee;
+	padding: 40px 0 80px 0;
+}
+
+.footer li{
+	line-height: 22px;
+}
+
+.grey{
+	background: #eee;
+}
+.quote{
+	padding-left: 15px;
+	}
+
+.functions div .h4{
+	padding: 8px 0 10px 0; 
+}
+
+.functions div p{
+	margin: 0;
+	padding: 20px 0 60px 0; 
+}
+
+.centre{
+	text-align: center;
+}
+
+.hide{
+	display: none;
+}
+
+.mast{
+	max-width: 100%;
+	padding: 20px 0 0 0;
+}
+
+
+.list{
+	padding: 0 0 0 50px;
+}
+
+/*.band-dark{
+	background-color: #eee;
+	padding: 30px 0;
+	margin: 30px 0;
+
+}
+
+
+.band-dark .figcaption{
+	color: #ddd;
+}*/
+
+.chapter{
+	margin: 25px 0 15px 0;
+}
+
+
+.h3 + .para{
+	margin-top: 30px;
+} 
+
+.quote + .citation {
+	margin-top: 10px;
+	margin-left: 17px;
+
+
+	}
+
+/*figure + figure,*/
+
+.para + figure,
+.citation + .para,
+.quote + .para,
+.para + .list, 
+.list + .para{
+	margin-top: 15px;
+} 
+
+
+.para + .para{
+margin-top: 1em;
+}
+
+.brief{
+	color: green;
+}
+
+main{
+	padding: 0 0 30px 0;
+}

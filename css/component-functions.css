@@ -1,0 +1,18 @@
+.function-label{
+	padding: 8px 12px;
+	border-radius: 4px;
+	margin: 12px 2px 3px 2px;
+	display: inline-block;
+}
+
+.function-label.green{
+	background-color: #cdeaff;
+
+	}
+.function-label.yellow{
+	background-color: #ffe5a1;
+}
+.function-label.blue{
+	background-color: #caebb0;
+	
+}

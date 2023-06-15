@@ -1,0 +1,35 @@
+img.max{
+	max-width: 100%;
+}
+
+img.round{
+	border-radius: 10px;
+}
+
+img.round-med{
+	border-radius: 7px;
+}
+
+img.round-small{
+	border-radius: 5px;
+}
+
+img.border{
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+img.multiply{
+	mix-blend-mode: multiply;
+}
+
+img.nl{
+	max-width: 175px;
+	margin: auto;
+	padding: 60px 0 0 0;
+}
+
+img.lm{
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+}

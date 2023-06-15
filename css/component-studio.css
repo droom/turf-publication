@@ -1,0 +1,19 @@
+.band-studio{
+	background-color: #c9d0c2;
+	}
+
+.chapter label.numbered.knockout {
+	background-color: #c9d0c2;
+	}
+
+.band-studio .h3,
+.band-studio .list,
+.band-studio .para,
+.band-studio .figcaption,
+.band-studio .quote,
+.band-studio .cite,
+.band-studio a{
+	/*color: #dfdfdf;*/
+	}
+
+	/*#*/
